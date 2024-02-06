@@ -461,3 +461,19 @@ p {
     opacity: 1;
   }
 }
+.bannerbutton {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.bannerbutton:hover {
+  background-color: white;
+  color: black;
+  transition: ease 0.2s;
+  cursor: pointer;
+}
